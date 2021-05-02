@@ -1,0 +1,135 @@
+
+main{
+    margin-top: 85px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 90px);
+}
+.main-content{
+    margin-left:345px;
+    transition: margin-left 300ms;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+    margin-top: 1rem;
+}
+.card-single{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 2px;
+}
+.card-single div:last-child span{
+    font-size: 3rem;
+    color: var(--main-color);
+}
+.card-single div:first-child span{
+    color: var(--text-grey);
+}
+.card-single:last-child{
+    background: var(--main-color);
+}
+.card-single:last-child h1,
+.card-single:last-child div:first-child span,
+.card-single:last-child div:last-child span{ 
+    color:#fff;
+}
+
+.recent-grid{
+    margin-top: 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 67% auto;
+}
+.card{
+    background: #fff;
+    border-radius: 5px;
+}
+.card-header,
+.card-body{
+    padding:1rem;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+}
+.card-header button{
+    background-color: var(--main-color);
+    border-radius: 10px;
+    color: #fff;
+    font-size: .8rem;
+    padding: .5rem;
+    border:1px solid var(--main-color);
+}
+
+main table{
+    border-collapse: collapse;
+}
+main thead tr{
+    border-bottom: 1px solid #f0f0f0;
+}
+main thead td{
+    font-weight: 700;
+}
+main td{
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    color: #222;
+}
+main td .status{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    margin-right: 1rem;
+    border-radius: 50%;
+}
+main tr td:last-child{
+    display: flex;
+    align-items: center;
+}
+.status.purple{
+    background: rebeccapurple;
+}
+.status.pink{
+    background: deeppink;
+}
+.status.orange{
+    background: orangered;
+}
+.table-responsive{
+    overflow-x: auto;
+}
+.customer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+.customer .info{
+    display: flex;
+    align-items: center;
+}
+.customer .info img{
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.info h4 {
+    font-size: .8%;
+    font-weight: 700;
+    color: #222;
+}
+.info small{
+    font-weight: 600;
+    color: var(--text-grey);
+}
+.contact span{
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: .5rem;
+    color: var(--main-color);
+}

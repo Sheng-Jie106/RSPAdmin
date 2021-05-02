@@ -6,10 +6,8 @@
     left: 0;
     height: 100%;
     background: var(--main-color);
-}
-
-.main-content{
-    margin-left:345px;
+    z-index: 100;
+    transition: width 300ms;
 }
 
 .sidebar-brand{
@@ -21,7 +19,9 @@
     display: inline-block;
     padding-right: 1rem;
 }
-
+.sidebar-menu{
+    margin-top: 1rem;
+}
 .sidebar-menu li{
     width: 100%;
     margin-bottom: 1.3rem;

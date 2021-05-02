@@ -15,6 +15,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.main-content{
-    margin-left: 345px;
+#nav-toggle{
+    display: none;
 }
